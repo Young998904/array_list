@@ -16,6 +16,9 @@ public class ArrayList {
     }
 
     public void removeAt(int index) {
-        size--;
+        for (int i=index; i < size-1; i++) {
+            datum[i] = datum[i+1];
+        }
+        size --;
     }
 }
