@@ -8,4 +8,8 @@ public class ArrayList {
     public void add(int data) {
 
     }
+
+    public int get(int i) {
+        return 100;
+    }
 }
