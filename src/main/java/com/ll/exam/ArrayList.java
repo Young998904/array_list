@@ -16,5 +16,6 @@ public class ArrayList {
     }
 
     public void removeAt(int index) {
+        size--;
     }
 }
