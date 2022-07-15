@@ -15,4 +15,9 @@ public class AppTest {
 
         assertEquals(0, al.size());
     }
+    @Test
+    void add() {
+        ArrayList al = new ArrayList();
+        al.add(100);
+    }
 }
