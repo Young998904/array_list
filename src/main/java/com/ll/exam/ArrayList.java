@@ -1,12 +1,13 @@
 package com.ll.exam;
 
 public class ArrayList {
+    int size;
     public int size() {
-        return 0;
+        return this.size;
     }
 
     public void add(int data) {
-
+        size++;
     }
 
     public int get(int i) {
